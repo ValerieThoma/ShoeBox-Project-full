@@ -3,7 +3,7 @@ The Shoebox Project is a non-profit company whose purpose is to provide professi
 
 
 ## Github Link:
-[The Shoebox Project GitHub](https://github.com/ValerieThoma/baby-unicorns)
+[The Shoebox Project GitHub](https://github.com/ValerieThoma/shoebox-project)
 
 ## Team Members & Roles:
 * [Eddie Atkinson](https://github.com/eddieatkinson)
@@ -66,7 +66,6 @@ router.get('/blog', function(req, res, next) {
         if(error){
             throw error;
         }
-        // res.json({results});
         res.render('blog',{
             review: review,
             notAdmin: notAdmin,
@@ -147,9 +146,7 @@ router.get('/userReview', (req, res)=>{
 ![Homepage](public/images/screen-shots/mobile-home.jpg)
 ![Map](public/images/screen-shots/map.png)
 ![Forms](public/images/screen-shots/volunteer_form.jpg)
-Landing page wireframe created in Adobe XD
-![Wireframes](public/images/screen-shots/LandingPageWeb1920.png) 
-![Wireframes](public/images/screen-shots/iPhone67.png)
+![Flowchart](public/images/ShoeBoxProject_FlowChart.png)
 
 
 ## URL:
@@ -157,7 +154,7 @@ Landing page wireframe created in Adobe XD
 
 ## All updated changes to Shoebox Project will be hosted at:
 [The Shoebox Project](https://myshoeboxproject.org) 
-c/o Eddie and Crystal Atkinson, founders of Ella B. Phtography & The Shoebox Project 
+c/o Eddie and Crystal Atkinson, founders and operators of Ella B. Phtography & The Shoebox Project 
 
 ## Project History:
 10/18/2017 - Project Start
