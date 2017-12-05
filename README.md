@@ -37,7 +37,7 @@ The Shoebox Project is a non-profit company whose purpose is to provide professi
 
 
 ## Code snippets:
-A route for 'blog home' checks database against user permissions. If user is admin, permission to publish or hide is granted. All approved blog posts are rendered.
+A route for 'blog home' checks the database against user permissions. If a user is admin, permission to publish or hide is granted. All approved blog posts are rendered.
 ``` javascript
 router.get('/blog', function(req, res, next) {
     var approved = false;
@@ -104,7 +104,7 @@ Using express-session middleware and the Node.js package Bcrypt, users are logge
     });
 });
 ```
-From the Administrators dashboard, those with permissions can upload photos and add comments to the volunteers' profiles. Eddie wrote this sick-ass Left Join and I'm hella envious.  
+From the Administrator's dashboard, those with permissions can upload photos and add comments to the volunteers' profiles. Eddie wrote this sick-ass Left Join and I'm hella envious.  
 ``` javascript
 router.get('/userReview', (req, res)=>{
     var numPhotos = -1;
@@ -148,11 +148,9 @@ router.get('/userReview', (req, res)=>{
 ![Map](public/images/screen-shots/map.png)
 ![Forms](public/images/screen-shots/volunteer_form.jpg)
 Landing page wireframe created in Adobe XD
-![Wireframes](public/images/screen-shots/LandingPageWeb1920.png)
-Landing page on mobile, desired layout though not fully realized. 
+![Wireframes](public/images/screen-shots/LandingPageWeb1920.png) 
 ![Wireframes](public/images/screen-shots/iPhone67.png)
-![Wireframes](public/images/screen-shots/landing_page_small.png)
-Mobile layout still in testing stages
+
 
 ## URL:
 [The Shoebox Project](https://www.shoeboxproject.valeriethoma.com)
