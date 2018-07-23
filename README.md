@@ -12,8 +12,8 @@ The Shoebox Project is a non-profit company whose purpose is to provide professi
 - [Project Blog](#project-blog)
 - [Interactive Map](#interactive-map)
 - [Volunteer Registration](#volunteer-registration) 
-- [User Login and Home Page](#user)
-- [Volunteer Login and Home Page](#volunteer)
+- [User Login and Home Page](#user-login-and-home-page)
+- [Volunteer Login and Home Page](#volunteer-login-and-home-page)
 - [Admin Dashboard](#admin-dashboard)
 - [Contact](#contact) 
 - [FAQ](#faq)
@@ -55,11 +55,11 @@ After both a phone interview and an in-person interview, the volunteer must subm
 
 **The administrator will create a home page for each user, i.e. the child in foster care. The user will have input on how they would like their home page to look. Currently there is one theme, but additional themes are coming. The user will also select a cover image for their photo album.**
 
-> Shyla
+     Shyla
 ![Shyla](public/images/shyla-home.png)
 ![ShylaImg](public/images/shyla-album.png)
 
-> Henry 
+     Henry
 ![Henry](public/images/henry-home.png)
 ![HenryImg](public/images/henry-album.png)
 
