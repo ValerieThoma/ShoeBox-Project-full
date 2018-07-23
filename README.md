@@ -10,11 +10,11 @@ The Shoebox Project is a non-profit company whose purpose is to provide professi
 
 - [About](#about)
 - [Project Blog](#project-blog)
-- [Interactive map](#interactive-map)
+- [Interactive Map](#interactive-map)
 - [Volunteer Registration](#volunteer-registration) 
-- [User login and home page](#user)
-- [Volunteer login and home page](#volunteer)
-- [Admin dashboard](#admin-dashboard)
+- [User Login and Home Page](#user-login-and-home-page)
+- [Volunteer Login and Home Page](#volunteer-login-and-home-page)
+- [Admin Dashboard](#admin-dashboard)
 - [Contact](#contact) 
 - [FAQ](#faq)
 
@@ -51,12 +51,25 @@ After both a phone interview and an in-person interview, the volunteer must subm
 
 ![Pending](public/images/pending.png)
 
-## User Login
+## User Login and Home Page
 
 **The administrator will create a home page for each user, i.e. the child in foster care. The user will have input on how they would like their home page to look. Currently there is one theme, but additional themes are coming. The user will also select a cover image for their photo album.**
 
+     Shyla
 ![Shyla](public/images/shyla-home.png)
+![ShylaImg](public/images/shyla-album.png)
+
+     Henry
 ![Henry](public/images/henry-home.png)
+![HenryImg](public/images/henry-album.png)
+
+
+     Loging in as Jackson
+    
+- visit [https://shoeboxproject.valeriethoma.com/](https://shoeboxproject.valeriethoma.com/)
+- click `Family Login`
+- enter email: `jackson@mail.com`, password: `jackson`
+- browse user photos
 
 
 
