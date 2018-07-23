@@ -6,23 +6,23 @@ The Shoebox Project is a non-profit company whose purpose is to provide professi
 #### URL
 [The Shoebox Project](https://www.shoeboxproject.valeriethoma.com)
 
-# Features
+## Features
 
-- [About](#About)
-- [Project Blog](#ProjectBlog)
-- [Volunteer Registration](#VolunteerRegistration)
-- [Contact](#Contact) 
-- [FAQ](#FAQ)
-- [Interactive map](#InteractiveMap) 
-- [User login and home page](#User)
-- [Volunteer login and home page](#Volunteer)
-- [Admin dashboard](#AdminDashboard)
+- [About](#about)
+- [Project Blog](#project-blog)
+- [Volunteer Registration](#volunteer-registration)
+- [Contact](#contact) 
+- [FAQ](#faq)
+- [Interactive map](#tnteractive-map) 
+- [User login and home page](#user)
+- [Volunteer login and home page](#volunteer)
+- [Admin dashboard](#admin-dashboard)
 
-# About
+## About
 
 ![Home Page](public/images/about.png)
 
-# Project Blog
+## Project Blog
 
 ![Blog Home](public/images/blog.png)
 
@@ -32,7 +32,7 @@ Visiters to the site can read blogs written by administrators or volunteers.
 All volunteers can author blogs but only the admin can approve them. Blogs can also be retroactively hidden.
 ![Approve](public/images/approve.png)
 
-# Volunteer Registration
+## Volunteer Registration
 
 ![Volunteer](public/images/volunteer.jpg)
 
