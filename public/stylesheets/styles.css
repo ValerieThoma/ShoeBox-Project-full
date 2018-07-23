@@ -160,12 +160,13 @@ p{
 	margin-left: 60px;
 	margin-right: 60px;
 }
-#my-signin2{
- 	position: absolute;
-	/* top: 50%; */
+#my-signin2{	
 	left: 40%;
-	top: 4vh;
- }
+}
+
+.abcRioButtonBlue {
+		background-color: grey !important;
+}
 @media screen and (max-width: 1100px){
 	.center{
 		font-size: 36px; 
@@ -797,13 +798,14 @@ a.blog-link, a.update-vol-info{
 /////////////////////////////////////// */
  
 .calendar{
+	padding: 80px;
  	background-image: url(../images/calendar.jpg);
  	background-size: cover;
  	background-attachment: fixed;
  	background-repeat: no-repeat;
 }
 #welcome{
- 	color: white;
+	 color: white;
 }
 .padding{
  	margin-bottom: 8px;

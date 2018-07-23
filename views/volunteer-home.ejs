@@ -23,7 +23,7 @@
 	<% if(admin){ %>
 		<div class="col-sm-3 col-sm-offset-9">
 			<a style="color:#58AED1;" href="/volunteers/blogReview"><button class="btn padding btn-info" id="admin">Review Blog Posts</button></a>
-			<a style="color:#58AED1;" href="/volunteers/volunteerReview"><button class="btn padding btn-info waves-effect" id="admin">Volunteer Info</button></a>
+			<a style="color:#58AED1;" href="/volunteers/volunteerReview"><button class="btn padding btn-info waves-effect" id="admin">Volunteer Info</button></a><br>
 			<a style="color:#58AED1;" href="/volunteers/userReview"><button class="btn btn-info waves-effect" id="admin">Users</button></a>
 		</div>
 
@@ -46,7 +46,12 @@
 			swal("You are not authorized to review blog posts.", "Please contact us with further questions.", "error");
 		</script>
 	<% } %>
-		<div id="my-signin2">
+
+
+	<div class="container-fluid">
+		<div class="row col-xs-12 text-center">
+			<h2 id="welcome" class="col-xs-12">Welcome, <%=name%></h2>
+			<div id="my-signin2" class="col-sm-offset-5">
 		  <script>
 		    function onSuccess(googleUser) {
 		      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
@@ -94,10 +99,6 @@
 
 		  <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
 		</div>
-
-	<div class="container-fluid">
-		<div class="row col-xs-12 text-center">
-			<h1 id="welcome" class="col-xs-12">Welcome, <%=name%></h1>
 		<div class="col-xs-12 calen">
 			<script>setTimeout(checkSigned, 1000);</script>
 		</div>
