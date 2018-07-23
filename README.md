@@ -86,11 +86,23 @@ After both a phone interview and an in-person interview, the volunteer must subm
 
 ![ProfileHome](public/images/vol-options.png)
 
+## Admin Dashboard
 
+## Contact 
+
+## FAQ
 
 ## Screenshots
+
+**Mobile View**
 ![Homepage](public/images/screen-shots/mobile-home.jpg)
-![Flowchart](public/images/ShoeBoxProject_FlowChart.png)
+
+**Early planning**
+![Flowchart](public/images/flow.png)
+
+**Wire Frames**
+![Mobile](public/images/screen-shots/mobile.png)
+![Landing](public/images/screen-shots/landing.png)
 
 ## Authors
 * [Eddie Atkinson](https://github.com/eddieatkinson)
