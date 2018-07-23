@@ -75,11 +75,13 @@ After both a phone interview and an in-person interview, the volunteer must subm
 
 ![VolunteerLogin](public/images/vol-login.png)
 
-**Once approved by the site admin, volunteer photographers are given a login.**
+**Once `approved` by the site admin, volunteer photographers are given a `login`.**
 
 **The volunteer home page features links to:**
 - upload a profile picture
 - sign into Google Calander
+     - view upcoming photo shoots
+     - update availability
 - compose a blog post
      
 ![ProfileImg](public/images/upload-img.png)
@@ -88,6 +90,20 @@ After both a phone interview and an in-person interview, the volunteer must subm
 
 ## Admin Dashboard
 
+![Admin](public/images/admin-home.png)
+
+**Admins of site have all the same features as volunteers with levels 1 and 2 access.**
+**In addition, admins have links to:**
+- review blog posts
+- view and edit volunteer profiles:
+     - approve volunteers
+     - assign permissions
+     - leave notes 
+- view and edit user information:
+     - upload photos
+     - view photos
+     - leave notes
+     
 ## Contact 
 
 ## FAQ
