@@ -1,3 +1,6 @@
+![Logo](public/images/logo.png) ![name](public/images/title.png)
+
+
 ## Overview:
 The Shoebox Project is a non-profit company whose purpose is to provide professional photographs and memories for children in the foster care system. We set up a site for the company, including sign-up forms, login capabilities, an interactive map, and various pages to navigate to on the site.
 
