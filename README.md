@@ -5,38 +5,22 @@
 The Shoebox Project is a non-profit company whose purpose is to provide professional photographs and memories for children in the foster care system. We set up a site for the company, including sign-up forms, login capabilities, an interactive map, and various pages to navigate to on the site.
 
 
-## Github Link:
-[The Shoebox Project GitHub](https://github.com/ValerieThoma/shoebox-project)
+## URL:
+[The Shoebox Project](https://www.shoeboxproject.valeriethoma.com)
 
-## Team Members & Roles:
-* [Eddie Atkinson](https://github.com/eddieatkinson)
-**Scrum Master|Route Layer|Data Wrangler|Map Magician|Developer**
-* [Valerie Jane Thoma](https://github.com/ValerieThoma)
-**Route Layer|Designer|Class Clown|Developer**
-* [Amir Patel](https://github.com/Amirpatel89)
-**Route Layer|Mobile Responsive Resuscitator|New Kid on the Block|Developer**
+## Features:
+
+- [About](#About)
+- [Project Blog](#ProjectBlog)
+- [Volunteer Registration](#VolunteerRegistration)
+- [Contact](#Contact) 
+- [FAQ](#FAQ)
+- [Interactive map](#InteractiveMap) 
+- [User login and home page](#User)
+- [Volunteer login and home page](#Volunteer)
+- [Admin dashboard](#AdminDashboard)
 
 
-## Technologies used:
-**Languages:**
-* JavaScript
-* HTML5
-* CSS
-
-**Frameworks and Libraries:**
-* Express
-* Node.js
-* jQuery
-* Bootstrap
-
-**Other:**
-* MySQL
-* AWS S3
-* Google Maps API
-* Multer
-* Multer S3
-* Bcrypt
-* Adobe XD - wireframe
 
 
 ## Code snippets:
@@ -151,9 +135,35 @@ router.get('/userReview', (req, res)=>{
 ![Forms](public/images/screen-shots/volunteer_form.jpg)
 ![Flowchart](public/images/ShoeBoxProject_FlowChart.png)
 
+## Team Members & Roles:
+* [Eddie Atkinson](https://github.com/eddieatkinson)
+**Scrum Master|Route Layer|Data Wrangler|Map Magician|Developer**
+* [Valerie Jane Thoma](https://github.com/ValerieThoma)
+**Route Layer|Designer|Class Clown|Developer**
+* [Amir Patel](https://github.com/Amirpatel89)
+**Route Layer|Mobile Responsive Resuscitator|New Kid on the Block|Developer**
 
-## URL:
-[The Shoebox Project](https://www.shoeboxproject.valeriethoma.com)
+
+## Technologies used:
+**Languages:**
+* JavaScript
+* HTML5
+* CSS
+
+**Frameworks and Libraries:**
+* Express
+* Node.js
+* jQuery
+* Bootstrap
+
+**Other:**
+* MySQL
+* AWS S3
+* Google Maps API
+* Multer
+* Multer S3
+* Bcrypt
+* Adobe XD - wireframe
 
 ## All updated changes to Shoebox Project will be hosted at:
 [The Shoebox Project](https://myshoeboxproject.org) 
