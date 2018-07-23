@@ -1,6 +1,6 @@
 ![Logo](public/images/logo.png) ![name](public/images/title.png)
 
-The Shoebox Project is a non-profit company whose purpose is to provide professional photographs and memories for children in the foster care system. We set up a site for the company, including sign-up forms, login capabilities, an interactive map, and various pages to navigate to on the site.
+The Shoebox Project is a non-profit company whose purpose is to provide professional photographs and memories for children in the foster care system. 
 
 
 #### URL
@@ -10,13 +10,13 @@ The Shoebox Project is a non-profit company whose purpose is to provide professi
 
 - [About](#about)
 - [Project Blog](#project-blog)
-- [Volunteer Registration](#volunteer-registration)
-- [Contact](#contact) 
-- [FAQ](#faq)
-- [Interactive map](#tnteractive-map) 
+- [Interactive map](#tnteractive-map)
+- [Volunteer Registration](#volunteer-registration) 
 - [User login and home page](#user)
 - [Volunteer login and home page](#volunteer)
 - [Admin dashboard](#admin-dashboard)
+- [Contact](#contact) 
+- [FAQ](#faq)
 
 ## About
 
@@ -24,20 +24,25 @@ The Shoebox Project is a non-profit company whose purpose is to provide professi
 
 ## Project Blog
 
+**Visiters to the site can read `blogs` written by administrators or volunteers.**
 ![Blog Home](public/images/blog.png)
 
-Visiters to the site can read blogs written by administrators or volunteers.
 ![Compose](public/images/compose.png)
 
-All volunteers can author blogs but only the admin can approve them. Blogs can also be retroactively hidden.
+**All volunteers can author blogs but only the admin can `approve` them. Blogs can also be retroactively `hidden`.**
 ![Approve](public/images/approve.png)
+
+## Interactive Map
+
+**`Hover` over this interactive map to see how many children are in active foster care per county, or find the county you are looking for in the `search` bar.**
+![Map](public/images/map.png) 
 
 ## Volunteer Registration
 
 ![Volunteer](public/images/volunteer.jpg)
 
-Once a volunteer has registered, they will be contacted by the administrator. 
-After both a phone interview and an in-person interview, the volunteer must submit to a comprehensive background check prior to being onboarded and given acces to the volunteer login portal. 
+**Once a volunteer has `registered`, they will be contacted by the administrator. 
+After both a phone interview and an in-person interview, the volunteer must submit to a comprehensive background check prior to being onboarded and `given access to the volunteer login portal`.**
 
 ![Submission](public/images/submission.png)
 
@@ -45,6 +50,7 @@ After both a phone interview and an in-person interview, the volunteer must subm
 
 
 ## Code snippets
+
 A route for 'blog home' checks the database against user permissions. If a user is admin, permission to publish or hide is granted. All approved blog posts are rendered.
 ``` javascript
 router.get('/blog', function(req, res, next) {
