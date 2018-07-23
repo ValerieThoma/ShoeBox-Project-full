@@ -17,6 +17,7 @@ The Shoebox Project is a non-profit company whose purpose is to provide professi
 - [Admin Dashboard](#admin-dashboard)
 - [Contact](#contact) 
 - [FAQ](#faq)
+- [More to Come](#improvements)
 
 ## About
 
@@ -92,8 +93,9 @@ After both a phone interview and an in-person interview, the volunteer must subm
 
 ![Admin](public/images/admin-home.png)
 
-**Admins of site have all the same features as volunteers with levels 1 and 2 access.**
-**In addition, admins have links to:**
+**`Admins` of site have all the same features as volunteers with `levels 1 and 2` access.**
+<br>
+**In addition, admins have `level 3` access:**
 - review blog posts
 - view and edit volunteer profiles:
      - approve volunteers
@@ -106,7 +108,18 @@ After both a phone interview and an in-person interview, the volunteer must subm
      
 ## Contact 
 
+**Want to get involved? Contact us?**
+
+![Contact](public/images/contact.png)
+<br>
+_placeholder contact information given_
+
 ## FAQ
+
+**We know you have questions.**
+
+![FAQ](public/images/faq.png)
+
 
 ## Screenshots
 
@@ -161,5 +174,6 @@ c/o Eddie and Crystal Atkinson, founders and operators of Ella B. Phtography & T
 10/18/2017 
 
 ## Improvements 
-- 👩🏽‍🔬Testing to begin shortly with Cypress
+- `Donate` link to accept `Stripe` payments
+- 👩🏽‍🔬`Testing` to begin shortly with [Cypress](https://www.cypress.io/)
 - UI updates coming soon 🎀
