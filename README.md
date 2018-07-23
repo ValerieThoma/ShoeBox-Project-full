@@ -94,14 +94,17 @@ After both a phone interview and an in-person interview, the volunteer must subm
 
 ## Screenshots
 
-**Mobile View**
+     Mobile View
+     
 ![Homepage](public/images/screen-shots/mobile-home.jpg)
 
-**Early planning**
+     Early Planning
+     
 ![Flowchart](public/images/flow.png)
 
-**Wire Frames**
+     Wire Frames
 ![Mobile](public/images/screen-shots/mobile.png)
+
 ![Landing](public/images/screen-shots/landing.png)
 
 ## Authors
