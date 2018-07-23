@@ -10,7 +10,7 @@ The Shoebox Project is a non-profit company whose purpose is to provide professi
 
 - [About](#about)
 - [Project Blog](#project-blog)
-- [Interactive map](#tnteractive-map)
+- [Interactive map](#interactive-map)
 - [Volunteer Registration](#volunteer-registration) 
 - [User login and home page](#user)
 - [Volunteer login and home page](#volunteer)
@@ -35,6 +35,7 @@ The Shoebox Project is a non-profit company whose purpose is to provide professi
 ## Interactive Map
 
 **`Hover` over this interactive map to see how many children are in active foster care per county, or find the county you are looking for in the `search` bar.**
+
 ![Map](public/images/map.png) 
 
 ## Volunteer Registration
