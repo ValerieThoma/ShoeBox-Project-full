@@ -1,29 +1,50 @@
 ![Logo](public/images/logo.png) ![name](public/images/title.png)
 
-
-## Overview:
 The Shoebox Project is a non-profit company whose purpose is to provide professional photographs and memories for children in the foster care system. We set up a site for the company, including sign-up forms, login capabilities, an interactive map, and various pages to navigate to on the site.
 
 
-## URL:
+#### URL
 [The Shoebox Project](https://www.shoeboxproject.valeriethoma.com)
 
-## Features:
+## Features
 
-- [About](#About)
-- [Project Blog](#ProjectBlog)
-- [Volunteer Registration](#VolunteerRegistration)
-- [Contact](#Contact) 
-- [FAQ](#FAQ)
-- [Interactive map](#InteractiveMap) 
-- [User login and home page](#User)
-- [Volunteer login and home page](#Volunteer)
-- [Admin dashboard](#AdminDashboard)
+- [About](#about)
+- [Project Blog](#project-blog)
+- [Volunteer Registration](#volunteer-registration)
+- [Contact](#contact) 
+- [FAQ](#faq)
+- [Interactive map](#tnteractive-map) 
+- [User login and home page](#user)
+- [Volunteer login and home page](#volunteer)
+- [Admin dashboard](#admin-dashboard)
+
+## About
+
+![Home Page](public/images/about.png)
+
+## Project Blog
+
+![Blog Home](public/images/blog.png)
+
+Visiters to the site can read blogs written by administrators or volunteers.
+![Compose](public/images/compose.png)
+
+All volunteers can author blogs but only the admin can approve them. Blogs can also be retroactively hidden.
+![Approve](public/images/approve.png)
+
+## Volunteer Registration
+
+![Volunteer](public/images/volunteer.jpg)
+
+Once a volunteer has registered, they will be contacted by the administrator. 
+After both a phone interview and an in-person interview, the volunteer must submit to a comprehensive background check prior to being onboarded and given acces to the volunteer login portal. 
+
+![Submission](public/images/submission.png)
+
+![Pending](public/images/pending.png)
 
 
-
-
-## Code snippets:
+## Code snippets
 A route for 'blog home' checks the database against user permissions. If a user is admin, permission to publish or hide is granted. All approved blog posts are rendered.
 ``` javascript
 router.get('/blog', function(req, res, next) {
@@ -129,13 +150,13 @@ router.get('/userReview', (req, res)=>{
 });
 
 ```
-## Screenshots:
+## Screenshots
 ![Homepage](public/images/screen-shots/mobile-home.jpg)
 ![Map](public/images/screen-shots/map.png)
 ![Forms](public/images/screen-shots/volunteer_form.jpg)
 ![Flowchart](public/images/ShoeBoxProject_FlowChart.png)
 
-## Team Members & Roles:
+## Authors
 * [Eddie Atkinson](https://github.com/eddieatkinson)
 **Scrum Master|Route Layer|Data Wrangler|Map Magician|Developer**
 * [Valerie Jane Thoma](https://github.com/ValerieThoma)
@@ -144,7 +165,7 @@ router.get('/userReview', (req, res)=>{
 **Route Layer|Mobile Responsive Resuscitator|New Kid on the Block|Developer**
 
 
-## Technologies used:
+## Technologies used
 **Languages:**
 * JavaScript
 * HTML5
@@ -165,9 +186,13 @@ router.get('/userReview', (req, res)=>{
 * Bcrypt
 * Adobe XD - wireframe
 
-## All updated changes to Shoebox Project will be hosted at:
+## All updated changes to Shoebox Project will be hosted at
 [The Shoebox Project](https://myshoeboxproject.org) 
 c/o Eddie and Crystal Atkinson, founders and operators of Ella B. Phtography & The Shoebox Project 
 
-## Project History:
-10/18/2017 - Project Start
+## Project Created
+10/18/2017 
+
+## Improvements 
+- 👩🏽‍🔬Testing to begin shortly with Cypress
+- UI updates coming soon 🎀
