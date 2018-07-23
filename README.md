@@ -25,11 +25,13 @@ The Shoebox Project is a non-profit company whose purpose is to provide professi
 ## Project Blog
 
 **Visiters to the site can read `blogs` written by administrators or volunteers.**
+
 ![Blog Home](public/images/blog.png)
 
 ![Compose](public/images/compose.png)
 
 **All volunteers can author blogs but only the admin can `approve` them. Blogs can also be retroactively `hidden`.**
+
 ![Approve](public/images/approve.png)
 
 ## Interactive Map
@@ -48,6 +50,16 @@ After both a phone interview and an in-person interview, the volunteer must subm
 ![Submission](public/images/submission.png)
 
 ![Pending](public/images/pending.png)
+
+## User Login
+
+**The administrator will create a home page for each user, i.e. the child in foster care. The user will have input on how they would like their home page to look. Currently there is one theme, but additional themes are coming. The user will also select a cover image for their photo album.**
+
+![Shyla](public/images/shyla-home.png)
+![Henry](public/images/henry-home.png)
+
+
+
 
 
 ## Code snippets
