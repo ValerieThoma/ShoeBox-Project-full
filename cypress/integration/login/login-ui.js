@@ -17,7 +17,7 @@ describe("Loggin in", () => {
       cy.get("[data-cy=userSubmit]")
         .click()  
 
-      cy.location("pathname").should("eq", "/users/home");  
+      cy.location("pathname").should("eq", "/users/home")  
 
   });
 
@@ -42,6 +42,44 @@ describe("Loggin in", () => {
     });
 
   });
+
+  context("logs in as volunteer", () => {
+    it("logs in with correct credentials", () => {
+      cy.get("[data-cy=volLogin]")
+        .click({ force: true })
+
+      cy.get("[data-cy=volEmail]")
+        .type("roscoe@mail.com")
+        
+      cy.get("[data-cy=volPass")
+        .type("saycheese")
+        
+      cy.get("[data-cy=volSubmit")
+        .click() 
+        
+      cy.location("pathname").should("eq", "/volunteers/home")   
+    })
+
+    it("logs in with bad credentials", () => {
+      cy.get("[data-cy=volLogin]")
+        .click({ force: true })
+
+      cy.get("[data-cy=volEmail]")
+        .type("phillip@mail.com")
+
+      cy.get("[data-cy=volPass")
+        .type("spaceghost")
+
+      cy.get("[data-cy=volSubmit")
+        .click()
+
+      cy.get(".swal-modal")
+        .should('exist')
+
+      cy.get(".swal-title")
+        .should("contain", "That email is not in our system")  
+    })
+  })
 
 
 
