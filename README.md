@@ -17,6 +17,7 @@ The Shoebox Project is a non-profit company whose purpose is to provide professi
 - [Admin Dashboard](#admin-dashboard)
 - [Contact](#contact) 
 - [FAQ](#faq)
+- [Tests!](#tests)
 - [More to Come](#improvements)
 
 ## About
@@ -120,6 +121,77 @@ _placeholder contact information given_
 
 ![FAQ](public/images/faq.png)
 
+## Tests
+
+_Everybody loves tests, right?!?!_ 🙄
+
+**1) Test your login through the UI**
+
+![LoginRunner](public/images/login-runner.png)
+
+```js
+// cy.visit(before each test)
+
+describe("Loggin in", () => {
+  beforeEach(() => {
+    cy.visit("/") //set baseUrl to localhost:3001
+  });
+  
+```
+
+![LoginTest](https://media.giphy.com/media/Ahvu5QG7aeEBLRsecE/giphy.gif)
+
+```js
+     
+  // login in with an authenticated user   
+  context("logs in as family member", () => {
+    it("logs in with correct credentials", () => {
+      cy.get("[data-cy=familyLogin]")
+        .click({force:true})
+
+      cy.get("[data-cy=userEmail]")
+        .type("shyla@mail.com")
+
+      cy.get("[data-cy=userPass")
+        .type("shyla")
+      
+      cy.get("[data-cy=userSubmit]")
+        .click()  
+
+      cy.location("pathname").should("eq", "/users/home")  
+
+  });
+     
+    // check validations
+    it("logs in with incorrect credentials", () => {
+      cy.get("[data-cy=familyLogin]")
+        .click({ force: true })
+
+      cy.get("[data-cy=userEmail]")
+        .type("shyla@mail.com")
+
+      cy.get("[data-cy=userPass")
+        .type("wrongpassword")
+
+      cy.get("[data-cy=userSubmit]")
+        .click()
+
+      // sweet alert tells user they have entered the wrong password  
+      cy.get(".swal-modal")
+        .should('exist')
+      
+      cy.get(".swal-title")
+        .should("contain", "Your password is incorrect")
+
+      // after entering wrong password, the user remains on the home page
+      cy.location("pathname").should("eq", "/users/login")  
+    });
+
+  });
+
+```
+
+**Keep your tests reliable with data-cy attributes instead of coupling them with class names that may change during production.** 
 
 ## Screenshots
 
@@ -175,5 +247,5 @@ c/o Eddie and Crystal Atkinson, founders and operators of Ella B. Phtography & T
 
 ## Improvements 
 - `Donate` link to accept `Stripe` payments 😇
-- 👩🏽‍🔬`Testing` to begin shortly with [Cypress](https://www.cypress.io/)
+- 👩🏽‍🔬More UI and API `tests` with [Cypress](https://www.cypress.io/)
 - UI updates coming soon 🎀
