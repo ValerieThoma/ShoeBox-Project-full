@@ -200,7 +200,6 @@ a#volunteer-FAQ-link{
 	color: #337AB7;
 }
 .social-media{
-	display: inline-block;
 	float: right;
 	margin-top: -62px;
 }
@@ -549,10 +548,6 @@ div > .agree{
 	display: block;
 	margin: 10px auto;
 }*/
-
-#background-check{
-	/*max-width: 100%;*/
-}
 
 .password-error{
 	color: red;
