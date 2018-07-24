@@ -183,7 +183,7 @@ describe("Loggin in", () => {
       cy.get(".swal-title")
         .should("contain", "Your password is incorrect")
 
-      // after entering wrong password, the user remains on the home page
+      // after entering wrong password, the user remains on the login page
       cy.location("pathname").should("eq", "/users/login")  
     });
 
