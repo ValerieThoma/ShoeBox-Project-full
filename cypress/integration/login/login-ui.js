@@ -1,7 +1,7 @@
 describe("Loggin in", () => {
   beforeEach(() => {
     cy.visit("/") //todo set baseUrl to localhost:3001
-  })
+  });
 
   context("logs in as family member", () => {
     it("logs in with correct credentials", () => {
@@ -34,11 +34,15 @@ describe("Loggin in", () => {
       cy.get("[data-cy=userSubmit]")
         .click()
 
+      // sweet alert tells user they have entered the wrong password  
       cy.get(".swal-modal")
         .should('exist')
       
       cy.get(".swal-title")
         .should("contain", "Your password is incorrect")
+
+      // after entering wrong password, the user remains on the home page
+      cy.location("pathname").should("eq", "/users/login")  
     });
 
   });
@@ -58,7 +62,7 @@ describe("Loggin in", () => {
         .click() 
         
       cy.location("pathname").should("eq", "/volunteers/home")   
-    })
+    });
 
     it("logs in with bad credentials", () => {
       cy.get("[data-cy=volLogin]")
@@ -77,10 +81,10 @@ describe("Loggin in", () => {
         .should('exist')
 
       cy.get(".swal-title")
-        .should("contain", "That email is not in our system")  
-    })
-  })
-
-
+        .should("contain", "That email is not in our system") 
+        
+      cy.location("pathname").should("eq", "/volunteers/login")  
+    });
+  });
 
 });

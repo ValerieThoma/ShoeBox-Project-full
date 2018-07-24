@@ -40,16 +40,16 @@ var upload = multer({
 var nameOfFileField = uploadDir.single('imageToUpload');
 
 var connection = mysql.createConnection(config.db);
-router.get('/login-Goog', passport.authenticate('auth0', {
- 	clientID: config.auth0.clientID,
-  	domain: "shoeboxproject.auth0.com",
-  	redirectUri: 'http://localhost:3001/callback',
-  	responseType: 'code',
-  	audience: 'https://shoeboxproject.auth0.com/userinfo',
-  	scope: 'openid profile email'}),
-  	function(req, res) {
-    	res.redirect("/");
-});
+// router.get('/login-Goog', passport.authenticate('auth0', {
+//  	clientID: config.auth0.clientID,
+//   	domain: "shoeboxproject.auth0.com",
+//   	redirectUri: 'http://localhost:3001/callback',
+//   	responseType: 'code',
+//   	audience: 'https://shoeboxproject.auth0.com/userinfo',
+//   	scope: 'openid profile email'}),
+//   	function(req, res) {
+//     	res.redirect("/");
+// });
 
 /* GET volunteer listing. */
 router.get('/', function(req, res, next) {
