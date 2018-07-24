@@ -54,7 +54,7 @@ After both a phone interview and an in-person interview, the volunteer must subm
 
 ## User Login and Home Page
 
-**The administrator creates `home page` for each user/child. The user has input on the appearance of their home page. Currently there is one `theme`, but additional themes will be added. The user also selects a `cover image` for their photo album.**
+**The administrator creates a `home page` for each user/child. The user has input on the appearance of their home page. Currently there is one `theme`, but additional themes will be added. The user also selects a `cover image` for their photo album.**
 
      Shyla
 ![Shyla](public/images/shyla-home.png)
@@ -174,6 +174,6 @@ c/o Eddie and Crystal Atkinson, founders and operators of Ella B. Phtography & T
 10/18/2017 
 
 ## Improvements 
-- `Donate` link to accept `Stripe` payments
+- `Donate` link to accept `Stripe` payments 😇
 - 👩🏽‍🔬`Testing` to begin shortly with [Cypress](https://www.cypress.io/)
 - UI updates coming soon 🎀
