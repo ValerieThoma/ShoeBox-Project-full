@@ -17,6 +17,7 @@ The Shoebox Project is a non-profit company whose purpose is to provide professi
 - [Admin Dashboard](#admin-dashboard)
 - [Contact](#contact) 
 - [FAQ](#faq)
+- [More to Come](#improvements)
 
 ## About
 
@@ -45,7 +46,7 @@ The Shoebox Project is a non-profit company whose purpose is to provide professi
 ![Volunteer](public/images/volunteer.jpg)
 
 **Once a volunteer has `registered`, they will be contacted by the administrator. 
-After both a phone interview and an in-person interview, the volunteer must submit to a comprehensive background check prior to being onboarded and `given access to the volunteer login portal`.**
+After both a phone interview and an in-person interview, the volunteer must submit to a comprehensive background check prior to being granted access to the `volunteer login portal`.**
 
 ![Submission](public/images/submission.png)
 
@@ -53,7 +54,7 @@ After both a phone interview and an in-person interview, the volunteer must subm
 
 ## User Login and Home Page
 
-**The administrator will create a `home page` for each user, i.e. the child in foster care. The user will have input on how they would like their home page to look. Currently there is one `theme`, but additional themes are coming. The user will also select a `cover image` for their photo album.**
+**The administrator creates a `home page` for each user/child. The user has input on the appearance of their home page. Currently there is one `theme`, but additional themes will be added. The user also selects a `cover image` for their photo album.**
 
      Shyla
 ![Shyla](public/images/shyla-home.png)
@@ -92,8 +93,9 @@ After both a phone interview and an in-person interview, the volunteer must subm
 
 ![Admin](public/images/admin-home.png)
 
-**Admins of site have all the same features as volunteers with levels 1 and 2 access.**
-**In addition, admins have links to:**
+**`Admins` of site have all the same features as volunteers with `levels 1 and 2` access.**
+<br>
+**In addition, admins have `level 3` access:**
 - review blog posts
 - view and edit volunteer profiles:
      - approve volunteers
@@ -106,7 +108,18 @@ After both a phone interview and an in-person interview, the volunteer must subm
      
 ## Contact 
 
+**Want to get involved? Contact us.**
+
+![Contact](public/images/contact.png)
+<br>
+_placeholder contact information given_
+
 ## FAQ
+
+**We know you have questions.**
+
+![FAQ](public/images/faq.png)
+
 
 ## Screenshots
 
@@ -161,5 +174,6 @@ c/o Eddie and Crystal Atkinson, founders and operators of Ella B. Phtography & T
 10/18/2017 
 
 ## Improvements 
-- 👩🏽‍🔬Testing to begin shortly with Cypress
+- `Donate` link to accept `Stripe` payments 😇
+- 👩🏽‍🔬`Testing` to begin shortly with [Cypress](https://www.cypress.io/)
 - UI updates coming soon 🎀
