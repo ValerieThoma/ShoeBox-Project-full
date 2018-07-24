@@ -46,7 +46,7 @@ The Shoebox Project is a non-profit company whose purpose is to provide professi
 ![Volunteer](public/images/volunteer.jpg)
 
 **Once a volunteer has `registered`, they will be contacted by the administrator. 
-After both a phone interview and an in-person interview, the volunteer must submit to a comprehensive background check prior to being onboarded and `given access to the volunteer login portal`.**
+After both a phone interview and an in-person interview, the volunteer must submit to a comprehensive background check prior to being granted access to the `volunteer login portal`.**
 
 ![Submission](public/images/submission.png)
 
@@ -54,7 +54,7 @@ After both a phone interview and an in-person interview, the volunteer must subm
 
 ## User Login and Home Page
 
-**The administrator will create a `home page` for each user, i.e. the child in foster care. The user will have input on how they would like their home page to look. Currently there is one `theme`, but additional themes are coming. The user will also select a `cover image` for their photo album.**
+**The administrator creates `home page` for each user/child. The user has input on the appearance of their home page. Currently there is one `theme`, but additional themes will be added. The user also selects a `cover image` for their photo album.**
 
      Shyla
 ![Shyla](public/images/shyla-home.png)
@@ -108,7 +108,7 @@ After both a phone interview and an in-person interview, the volunteer must subm
      
 ## Contact 
 
-**Want to get involved? Contact us?**
+**Want to get involved? Contact us.**
 
 ![Contact](public/images/contact.png)
 <br>
