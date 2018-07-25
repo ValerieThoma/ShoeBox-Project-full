@@ -4,7 +4,7 @@ The Shoebox Project is a non-profit company whose purpose is to provide professi
 
 
 #### URL
-[The Shoebox Project](https://www.shoeboxproject.valeriethoma.com)
+[The Shoebox Project](https://shoeboxproject.valeriethoma.com/)
 
 ## Features
 
